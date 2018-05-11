@@ -6,11 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Bottle web project template">
 	<meta name="author" content="datamate">
-	<link rel="icon" href="/static/favicon.ico">		
+	<link rel="icon" href="static/favicon.ico">	
+	<base href="{{ APP_MOUNT_PATH }}">
 	<title>Project</title>
-	<link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css">
-	<script type="text/javascript" src="/static/jquery.min.js"></script>
-	<script type="text/javascript" src="/static/bootstrap.min.js"></script>	
+	<link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+	<script type="text/javascript" src="static/jquery.min.js"></script>
+	<script type="text/javascript" src="static/bootstrap.min.js"></script>	
 </head>
 <body>
 	<!-- Static navbar -->
@@ -28,9 +29,9 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="../navbar/">Home</a></li>
+						<li><a href="navbar/">Home</a></li>
 						<li><a href="./">Github</a></li>
-						<li><a href="../navbar-fixed-top/">Stackoverflow</a></li>
+						<li><a href="navbar-fixed-top/">Stackoverflow</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
